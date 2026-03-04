@@ -1,0 +1,1 @@
+export { IntegrationEdge } from './IntegrationEdge';

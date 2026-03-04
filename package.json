@@ -1,0 +1,33 @@
+{
+  "name": "@ecosystem/canvas-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Unified React Flow visualization library for the ReFi ecosystem",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "format": "prettier --write \"**/*.{ts,tsx,md,json}\"",
+    "typecheck": "turbo run typecheck",
+    "playground": "pnpm --filter @ecosystem/canvas-playground dev",
+    "explorer": "pnpm --filter @ecosystem/canvas-explorer dev",
+    "storybook": "pnpm --filter @ecosystem/canvas-storybook dev",
+    "dev:all": "turbo run dev --parallel"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "prettier": "^3.1.1",
+    "turbo": "^1.11.2",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "packageManager": "pnpm@8.15.1"
+}

@@ -1,0 +1,50 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+    
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    
+    /* Paths */
+    "baseUrl": ".",
+    "paths": {
+      "@ecosystem/canvas-core": ["./packages/core/src"],
+      "@ecosystem/canvas-core/*": ["./packages/core/src/*"],
+      "@ecosystem/canvas-fund-flows": ["./packages/fund-flows/src"],
+      "@ecosystem/canvas-fund-flows/*": ["./packages/fund-flows/src/*"],
+      "@ecosystem/canvas-organizations": ["./packages/organizations/src"],
+      "@ecosystem/canvas-organizations/*": ["./packages/organizations/src/*"],
+      "@ecosystem/canvas-learning-paths": ["./packages/learning-paths/src"],
+      "@ecosystem/canvas-learning-paths/*": ["./packages/learning-paths/src/*"],
+      "@ecosystem/canvas-knowledge-graphs": ["./packages/knowledge-graphs/src"],
+      "@ecosystem/canvas-knowledge-graphs/*": ["./packages/knowledge-graphs/src/*"],
+      "@ecosystem/canvas-pipelines": ["./packages/pipelines/src"],
+      "@ecosystem/canvas-pipelines/*": ["./packages/pipelines/src/*"],
+      "@ecosystem/canvas-react": ["./packages/react/src"],
+      "@ecosystem/canvas-react/*": ["./packages/react/src/*"],
+      "@ecosystem/canvas-integrations": ["./packages/integrations/src"],
+      "@ecosystem/canvas-integrations/*": ["./packages/integrations/src/*"],
+      "@ecosystem/canvas-data": ["./packages/data/src"],
+      "@ecosystem/canvas-data/*": ["./packages/data/src/*"],
+      "@ecosystem/canvas-widget": ["./packages/widget/src"],
+      "@ecosystem/canvas-widget/*": ["./packages/widget/src/*"]
+    }
+  },
+  "include": ["packages", "apps"],
+  "exclude": ["node_modules", "dist", "build"]
+}

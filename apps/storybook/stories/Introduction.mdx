@@ -1,0 +1,51 @@
+import { Meta } from '@storybook/blocks';
+
+<Meta title="Introduction" />
+
+# Ecosystem Canvas Library
+
+A unified React Flow visualization library providing interconnected canvas views across the ReFi ecosystem.
+
+## Overview
+
+The Ecosystem Canvas Library synthesizes visualization patterns from multiple ReFi projects into a cohesive, extensible system:
+
+- **dao-os**: DAO composition and treasury flows
+- **opengrants-os**: Grant funding and capital flows
+- **organizational-os**: Organizational structures and governance
+- **regen-toolkit-interface**: Learning pathways and educational content
+- **koi-net-integration**: Knowledge graphs and semantic relationships
+
+## Packages
+
+- `@ecosystem/canvas-core` - Core primitives, types, themes, and utilities
+- `@ecosystem/canvas-fund-flows` - Capital flow visualization
+- `@ecosystem/canvas-react` - React integration components
+
+## Quick Start
+
+```tsx
+import { Canvas, CanvasProvider } from '@ecosystem/canvas-react';
+import { BaseNode } from '@ecosystem/canvas-core/primitives';
+
+const nodeTypes = {
+  base: BaseNode,
+};
+
+function App() {
+  return (
+    <CanvasProvider theme="functional" initialNodes={nodes} initialEdges={edges}>
+      <Canvas nodeTypes={nodeTypes} fitView showBackground showControls />
+    </CanvasProvider>
+  );
+}
+```
+
+## Themes
+
+The library includes 5 built-in themes:
+- **functional**: Clean, minimal design
+- **daocore**: DAO-focused styling
+- **regen**: Regenerative finance theme
+- **ocean**: ReFi Barcelona theme
+- **forest**: Regenerant Catalunya theme
