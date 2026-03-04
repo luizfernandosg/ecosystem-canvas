@@ -3,7 +3,7 @@
 ## Installation
 
 ```bash
-cd 03 Libraries/ecosystem-canvas
+cd ecosystem-canvas
 pnpm install
 pnpm build
 ```

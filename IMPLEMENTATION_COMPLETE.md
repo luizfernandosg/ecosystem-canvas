@@ -174,7 +174,7 @@ Documentation Pages: 5
 
 ```bash
 # Install
-cd 03 Libraries/ecosystem-canvas
+cd ecosystem-canvas
 pnpm install
 pnpm build
 ```

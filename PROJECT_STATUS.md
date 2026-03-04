@@ -128,7 +128,7 @@ The core foundation is **production-ready** and can be immediately integrated:
 ### Installation
 
 ```bash
-cd 03 Libraries/ecosystem-canvas
+cd ecosystem-canvas
 pnpm install
 pnpm build
 ```
@@ -183,7 +183,7 @@ function GrantsVisualization({ grants }) {
 ### DAO OS
 **Status**: Ready for integration
 **Required**: Use FunderNode, TreasuryNode, and CapitalFlowEdge
-**Integration Point**: `03 Libraries/dao-os/apps/composer/src/components/DAOComposer.tsx`
+**Integration Point**: [dao-os/composer](https://github.com/luizfernandosg/dao-os/blob/main/apps/composer/src/components/DAOComposer.tsx)
 
 ### OpenGrants OS
 **Status**: Ready for integration
@@ -193,7 +193,7 @@ function GrantsVisualization({ grants }) {
 ### Organizational OS
 **Status**: Awaiting organizations package completion
 **Required**: OrganizationNode, RoleNode, TeamNode
-**Integration Point**: `03 Libraries/organizational-os-template/packages/webapps/`
+**Integration Point**: [organizational-os-template/webapps](https://github.com/luizfernandosg/organizational-os-template/tree/main/packages/webapps)
 
 ### Regen Toolkit Interface
 **Status**: Awaiting learning-paths package completion
