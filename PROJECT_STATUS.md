@@ -188,7 +188,7 @@ function GrantsVisualization({ grants }) {
 ### OpenGrants OS
 **Status**: Ready for integration
 **Required**: All fund-flows nodes and edges
-**Integration Point**: `03 Libraries/opengrants-os/packages/frontend/`
+**Integration Point**: [grants-os/frontend](https://github.com/luizfernandosg/grants-os/tree/main/packages/frontend)
 
 ### Organizational OS
 **Status**: Awaiting organizations package completion

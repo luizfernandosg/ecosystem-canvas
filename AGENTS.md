@@ -114,8 +114,8 @@ apps/
 
 ### Integration Points
 - Depends on: React Flow (@xyflow/react), Zod validation
-- Used by: dao-os (fund flow visualization), opengrants-os (grant flow visualization)
-- Shares patterns with: dao-os (React Flow), opengrants-os (visualization needs)
+- Used by: dao-os (fund flow visualization), grants-os (grant flow visualization)
+- Shares patterns with: dao-os (React Flow), grants-os (visualization needs)
 
 **For Complete Context**: See root `CONTEXT-GATHERING-GUIDE.md` for ecosystem-canvas section.
 
